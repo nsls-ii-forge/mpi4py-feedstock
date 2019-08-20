@@ -1,18 +1,18 @@
+{% set name = "mpi4py" %}
 {% set version = '3.0.2' %}
 {% set sha256 = 'f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0' %}
 
 package:
-  name: mpi4py
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: mpi4py-{{ version }}.tar.gz
-  url: https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-{{ version }}.tar.gz
+  url: https://bitbucket.org/{{ name }}/{{ name }}/downloads/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   number: 0
-  script: pip install --no-deps .
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   # TODO: build with msmpi when it works
   skip: true  # [win]
 
