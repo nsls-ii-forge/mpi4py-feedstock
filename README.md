@@ -59,16 +59,38 @@ Current build status
                   <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/mpi4py-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpipython3.7" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>osx_mpimpichpython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=55&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/mpi4py-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpichpython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpimpichpython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=55&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/mpi4py-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpichpython3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpipython3.6</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=55&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/mpi4py-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpipython3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpipython3.7</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=55&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/mpi4py-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpipython3.7" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>OSX</td>
-    <td>
-      <img src="https://img.shields.io/badge/OSX-disabled-lightgrey.svg" alt="OSX disabled">
     </td>
   </tr>
   <tr>
