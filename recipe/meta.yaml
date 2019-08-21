@@ -30,6 +30,10 @@ requirements:
 test:
   imports:
     - {{ name }}
+  files:
+    - test_mpi.py
+  commands:
+    - mpiexec -n 3 python test_mpi.py
 
 about:
   home: https://mpi4py.bitbucket.io/
