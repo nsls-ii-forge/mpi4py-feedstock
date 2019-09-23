@@ -43,10 +43,3 @@ about:
      to exploit multiple processors.
   doc_url: https://mpi4py.readthedocs.org/
   dev_url: https://bitbucket.org/mpi4py/mpi4py
-
-extra:
-  recipe-maintainers:
-    - dalcinl
-    - minrk
-    - msarahan
-    - ocefpaf
