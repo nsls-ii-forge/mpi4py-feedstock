@@ -7,12 +7,14 @@ channel_sources:
 channel_targets:
 - nsls2forge main
 docker_image:
-- condaforge/linux-anvil-comp7
+- nsls2/nsls2forge:latest
 mpi:
-- openmpi
+- mpich
 pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
 python:
-- '3.6'
+- '3.8'
+target_platform:
+- linux-64
