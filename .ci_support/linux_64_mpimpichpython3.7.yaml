@@ -1,0 +1,20 @@
+c_compiler:
+- gcc
+c_compiler_version:
+- '7'
+channel_sources:
+- nsls2forge,defaults
+channel_targets:
+- nsls2forge main
+docker_image:
+- nsls2/nsls2forge:latest
+mpi:
+- mpich
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- '3.7'
+target_platform:
+- linux-64
