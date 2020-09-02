@@ -2,9 +2,17 @@ channel_sources:
   - nsls2forge,defaults
 channel_targets:
   - nsls2forge main
+docker_image:
+  - nsls2/nsls2forge:latest
+cuda_compiler_version:
+  - None
 mpi:
   - mpich
   - openmpi
 pin_run_as_build:
   mpich: x.x
   openmpi: x.x
+python:
+  - 3.6
+  - 3.7
+  - 3.8
