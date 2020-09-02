@@ -1,6 +1,6 @@
 {% set name = "mpi4py" %}
-{% set version = '3.0.2' %}
-{% set sha256 = 'f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0' %}
+{% set version = "3.0.3" %}
+{% set sha256 = "012d716c8b9ed1e513fcc4b18e5af16a8791f51e6d1716baccf988ad355c5a1f" %}
 
 package:
   name: {{ name|lower }}
@@ -11,9 +11,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [win or py<36]
+  skip: true  # [win or py<36]
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   # TODO: build with msmpi when it works
 
 requirements:
@@ -38,8 +38,8 @@ about:
   license_file: LICENSE.rst
   summary: Python bindings for MPI
   description: |
-     MPI for Python provides bindings of the Message Passing Interface (MPI)
-     standard for the Python programming language, allowing any Python program
-     to exploit multiple processors.
+    MPI for Python provides bindings of the Message Passing Interface (MPI)
+    standard for the Python programming language, allowing any Python program
+    to exploit multiple processors.
   doc_url: https://mpi4py.readthedocs.org/
   dev_url: https://bitbucket.org/mpi4py/mpi4py
