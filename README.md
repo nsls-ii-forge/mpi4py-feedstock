@@ -141,6 +141,7 @@ Installing `mpi4py` from the `nsls2forge` channel can be achieved by adding `nsl
 
 ```
 conda config --add channels nsls2forge
+conda config --set channel_priority strict
 ```
 
 Once the `nsls2forge` channel has been enabled, `mpi4py` can be installed with:
