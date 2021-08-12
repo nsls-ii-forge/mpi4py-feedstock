@@ -1,6 +1,6 @@
 {% set name = "mpi4py" %}
-{% set version = "3.0.3" %}
-{% set sha256 = "012d716c8b9ed1e513fcc4b18e5af16a8791f51e6d1716baccf988ad355c5a1f" %}
+{% set version = "3.1.0" %}
+{% set sha256 = "134fa2b2fe6d8f91bcfcc2824cfd74b55ca3dcbff4d185b1bda009beea9232ec" %}
 
 package:
   name: {{ name|lower }}
